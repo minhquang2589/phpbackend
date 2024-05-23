@@ -1,0 +1,34 @@
+<template>
+    <div
+        class="flex h-screen items-center px-3 lg:px-0 mb-4 justify-center bg-white"
+    >
+        <div class="h-3/4">
+            <div class="rounded-3xl shadow-2xl">
+                <div class="p-8 text-center sm:p-12">
+                    <p
+                        class="text-sm font-semibold uppercase tracking-widest text-red-600"
+                    >
+                        You have successfully purchased
+                    </p>
+                    <h2 class="mt-6 text-3xl font-bold">
+                        Thank you for your purchase. <br />
+                        we will ship upon successful order confirmation!
+                    </h2>
+                    <router-link to="/">
+                        <a
+                            href="#"
+                            class="mt-8 inline-block w-full rounded-full hover:cursor-pointer bg-red-600 py-4 text-sm font-bold text-white shadow-xl"
+                        >
+                            Go Back Home
+                        </a>
+                    </router-link>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+<script>
+export default {
+    name: "Confirm",
+};
+</script>

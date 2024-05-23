@@ -1,0 +1,40 @@
+.main-warp{
+   max-width: 700px;
+   margin: auto;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   margin-left: 200px;
+   
+}
+img {
+   width: 115%;
+}
+.li1{
+   line-height: 74px;
+   border-radius:50%;
+   height: 80px;
+   width: 80px;
+   background-color: rgb(188, 153, 153);
+}
+.li2{
+   line-height: 74px;
+   border-radius:50%;
+   height: 80px;
+   width: 80px;
+   background-color: rgb(107, 96, 96);
+}
+.li3{
+   line-height: 74px;
+   border-color: rgb(0, 0, 0);
+   border-radius:50%;
+   height: 80px;
+   width: 80px;
+   background-color: rgb(176, 201, 131);
+}
+.li4{
+   line-height: 74px;
+   border-radius:50%;
+   height: 80px;
+   width: 80px;
+   background-color: rgb(124, 136, 214);
+}

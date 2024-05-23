@@ -1,0 +1,13 @@
+.container{
+      align-items: center;
+      height: 600px;
+      width:  600px;
+}
+.list {
+   padding-top: 30px;
+   height: 500px;
+   width: 500px;
+}
+.spanlist{
+   margin: 0px 10px 0px 0px ;
+}

@@ -1,0 +1,41 @@
+{
+    "name": "notus-js",
+    "homepage": "https://demos.creative-tim.com/notus-js/",
+    "version": "1.1.0",
+    "description": "Notus Tailwind JS - Free Tailwind CSS UI Kit and Admin by Creative Tim.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/creativetimofficial/notus-js.git"
+    },
+    "private": true,
+    "type": "module",
+    "license": "MIT",
+    "main": "index.html",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "start": "browser-sync start --server --index \"./index.html\"",
+        "build:tailwind": "tailwind build assets/styles/index.css -o assets/styles/tailwind.css",
+        "build:fontawesome": "mkdir -p assets/vendor/@fortawesome/fontawesome-free/webfonts && mkdir -p assets/vendor/@fortawesome/fontawesome-free/css && cp -a ./node_modules/@fortawesome/fontawesome-free/webfonts assets/vendor/@fortawesome/fontawesome-free/ && cp ./node_modules/@fortawesome/fontawesome-free/css/all.min.css assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.19",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.15.3",
+        "@tailwindcss/forms": "0.2.1",
+        "bootstrap": "^5.3.3",
+        "browser-sync": "2.26.14",
+        "tailwindcss": "2.0.4"
+    },
+    "keywords": [],
+    "author": "",
+    "bugs": {
+        "url": "https://github.com/creativetimofficial/notus-js/issues"
+    }
+}
